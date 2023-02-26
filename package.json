@@ -1,0 +1,20 @@
+{
+  "name": "solidity-truffle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renzodef/Solidity-Truffle.git"
+  },
+  "author": "Renzodef",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Renzodef/Solidity-Truffle/issues"
+  },
+  "homepage": "https://github.com/Renzodef/Solidity-Truffle#readme",
+  "dependencies": {
+    "truffle": "^5.7.7"
+  }
+}
