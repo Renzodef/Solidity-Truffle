@@ -7,36 +7,47 @@ This repository contains simple smart contract projects made with Solidity progr
 To use this codebase, you'll need the following installed on your system:
 
 - [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
 - [Ganache](https://trufflesuite.com/ganache/)
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/Renzodef/Solidity-Truffle`
-2. Install the dependencies with: `npm install`
+- Open a terminal or command prompt.
+- Clone this repository:
+```bash
+git clone https://github.com/Renzodef/Solidity-Truffle
+```
+- Navigate to the root directory of the cloned repository:
+```bash
+cd Solidity-Truffle
+```
+- Install the dependencies:
+```bash
+npm install
+```
 
 ## Project01 
 ### A simple smart contract that prints "Hello World" in the terminal with Solidity
 
 - Start Ganache test chain by opening the downloaded application
 - Open a terminal or command prompt.
-- Navigate to the root directory of this project.
-- Go with the terminal in the directory of the first project:<br>
+- Navigate to the root directory of this project, then:
 ```bash
 cd Project01
 ```
-- Compile the smart contract with:<br>
+- Compile the smart contract:<br>
 ```bash
 npx truffle compile
 ```
-- Deploy the smart contract on the Ganache chain with:<br>
+- Deploy the smart contract on the Ganache chain:<br>
 ```bash
 npx truffle migrate
 ```  
-- Open the truffle console with:<br>
+- Open the truffle console:<br>
 ```bash
 npx truffle console
 ```
-- Invoke the smart contract with:<br>
+- Invoke the smart contract:<br>
 ```
 HelloWorld.deployed().then(function(instance){return instance.getHelloMessage()});
 ```
@@ -46,24 +57,23 @@ HelloWorld.deployed().then(function(instance){return instance.getHelloMessage()}
 
 - Start Ganache test chain by opening the downloaded application
 - Open a terminal or command prompt.
-- Navigate to the root directory of this project.
-- Go with the terminal in the directory of the first project:<br>
+- Navigate to the root directory of this project, then:
 ```bash
 cd Project02
 ```
-- Compile the smart contract with:<br>
+- Compile the smart contract:<br>
 ```bash
 npx truffle compile
 ```
-- Deploy the smart contract on the Ganache chain with:<br>
+- Deploy the smart contract on the Ganache chain:<br>
 ```bash
 npx truffle migrate
 ```  
-- Open the truffle console with:<br>
+- Open the truffle console:<br>
 ```bash
 npx truffle console
 ```
-- Invoke the smart contract with:<br>
+- Invoke the smart contract:<br>
 ```
 DataTypes.deployed().then(function(instance){return instance.getStateVariables()});
 ```
@@ -73,20 +83,19 @@ DataTypes.deployed().then(function(instance){return instance.getStateVariables()
 
 - Start Ganache test chain by opening the downloaded application
 - Open a terminal or command prompt.
-- Navigate to the root directory of this project.
-- Go with the terminal in the directory of the first project:<br>
+- Navigate to the root directory of this project, then:
 ```bash
 cd Project03
 ```
-- Compile the smart contract with:<br>
+- Compile the smart contract:<br>
 ```bash
 npx truffle compile
 ```
-- Deploy the smart contract on the Ganache chain with:<br>
+- Deploy the smart contract on the Ganache chain:<br>
 ```bash
 npx truffle migrate
 ```  
-- Open the truffle console with:<br>
+- Open the truffle console:<br>
 ```bash
 npx truffle console
 ```
